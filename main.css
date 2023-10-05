@@ -1,0 +1,72 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #646b58;
+    color: #fff;
+}
+
+.section-title {
+    font-family: 'Paprika', cursive;
+}
+
+#cabecalho .section-title {
+    color: #fff;
+}
+
+#cabecalho .nav a {
+    color: #fff;
+}
+
+#cabecalho .nav .nav-item .active {
+    background-color: #e5eee5;
+    color: #515942;
+}
+
+#historia, #compras {
+    background-color: #e5eee5;
+    color: #000;
+}
+
+#servicos img {
+    max-height: 280px;
+}
+
+.redes-sociais li {
+    list-style: none;
+    display: inline;
+}
+
+.redes-sociais li a {
+    text-decoration: none;
+}
+
+.text-colored {
+    color: #515942;
+}
+
+#fale-conosco button,
+.nav-compras .nav-link.active {
+    background-color: #646b58;
+    color: #fff;
+}
+
+.nav-compras .nav-link {
+    color: #515942;
+}
+
+#cabecalho .emoji {
+    color: #fff;
+}
+
+#rodape {
+    background-color: #646b58;
+    color: #fff;
+}
+
+@media (max-width: 767px){
+    .carousel-item img{
+        height: 240px;
+    }
+}
